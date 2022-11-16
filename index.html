@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Nordic Gentleman Tours</title>
+
+    <!-- bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand px-5 ng-nav" href="#">
+            <h2><strong>Nordic Gentleman</strong></h2></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <h5>Home</h5>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><h5>About</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"><h5>Contact</h5></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1445127040028-b1bdb9acd16e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+            class="d-block w-100"
+            alt="Photo of Gullfoss waterfall"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1581390852115-a0372b9aa6ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            class="d-block w-100"
+            alt="Photo of Thingvellir"
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1604094246348-38d7e43ae9fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            class="d-block w-100 geysir"
+            alt="Photo of Geysir erupting"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Product bar -->
+
+    <section class="products mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-1g-3 col">
+            <h1 class="text-center py-4">Products</h1>
+            <div class="list-group flex-sm-row flex-md-column text-center">
+              <a href="#" class="list-group-item list-group-item-action rounded-bottom">
+                <h5>Bus tours</h5>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action border-top rounded-top rounded-bottom"><h6>Meet on location tours</h6></a>
+              <a href="#" class="list-group-item list-group-item-action border-top rounded-top align-items-center"><h5>City tours</h5></a>
+            </div>
+          </div>
+
+<!-- Essentials cards -->
+
+          <div class="col-lg-9 text-center">
+            <h1 class="py-4">
+              Essentials
+            </h1>
+            <div class="row gy-3">
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1517032880222-1afedf8c9d0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80">
+                  </div>
+                  <div class="card-body">
+                    <h5>Glacier Hike</h5>
+                    <a class="btn btn-light mt-3" href="#">Book Now</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1607217774490-e76fa58d8d97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80">
+                  </div>
+                  <div class="card-body">
+                    <h6>Glacier Lagoon boat trip</h6>
+                    <a class="btn btn-light mt-3" href="#">Book Now</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1548789997-82da68437ad8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+                  </div>
+                  <div class="card-body">
+                    <h5>Ice Climbing</h5>
+                    <a class="btn btn-light mt-3" href="#">Book Now</a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1565440653702-27c73ea84f41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                  </div>
+                  <div class="card-body">
+                    <h5>Reindeer Spotting</h5>
+                    <a class="btn btn-light mt-3" href="#">Book Now</a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+    
+    <section class="read py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3 justify-content-center align-items-center">
+              <img src=""
+
+
+            </div>
+        </div>
+
+
+      </div>
+
+
+
+
+    </section>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
